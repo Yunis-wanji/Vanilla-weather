@@ -30,6 +30,24 @@ ul li{
     color: yellow;
 }
 
+.celsius{
+    color: whitesmoke;
+    cursor: default;
+    text-decoration: none;
+    font-weight: 300;
+}
+.celsius:hover{
+    color: whitesmoke ;
+}
+ .fahr{
+        color: whitesmoke;
+        cursor: default;
+        text-decoration: none;
+        font-weight: 300;
+    }
+    .fahr:hover{
+        color: whitesmoke ;
+    }
 .footer{
     color: white;
     background-color: black;
