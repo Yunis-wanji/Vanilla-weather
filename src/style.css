@@ -26,8 +26,10 @@ ul li{
     list-style: none;
 
 }
-.far {
-    color: yellow;
+
+
+p{
+font-size: 1.5rem;
 }
 
 .celsius{
@@ -48,14 +50,19 @@ ul li{
     .fahr:hover{
         color: whitesmoke ;
     }
+    .middle-area{
+        text-align: center;
+        
+    }
 .footer{
     color: white;
+    text-align: center;
     background-color: black;
     opacity: 0.8;
     border: 5px solid rgb(31, 29, 29);;
     border-radius: 15px;
     padding: 15px;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-right: 0px;
     margin: 10px auto;
     max-width: 800px;
