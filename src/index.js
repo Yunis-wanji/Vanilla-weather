@@ -103,7 +103,7 @@ function displayWeather(response) {
     celsiustemp = response.data.main.temp;
      
     let icon = document.querySelector("#pic");
-    icon.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
+    icon.setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
     
     getForecast(response.data.coord)
 
